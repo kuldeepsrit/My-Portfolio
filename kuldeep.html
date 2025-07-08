@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header Section -->
+  
+  <!-- Header Wrapper -->
+
+  <header id="main-header">
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div> <!-- Three-line icon -->
+    <nav id="nav-menu">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-image">
+      <img src="20201121_130237.jpg" alt="Your Name">
+    </div>
+    <div class="hero-content">
+      <h1>Hi, I'm 
+        Kuldeep Mishra</h1>
+      <p>Aspiration as a Software Developer 🚀.</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I am  kuleep mishra with expertise in software development. I love building creative and innovative solutions to real-world problems. With a strong foundation in development, I strive to deliver high-quality work that makes an impact.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Project 1</h3>
+        <p>Women Travel Safe</p>
+        <a href="https://kuldeepsrit.github.io/Travel_Safe_WebApp/" class="project-link">View Project</a>
+      </div>
+      <div class="project-card">
+        <h3>Project 2</h3>
+        <p>voice-to-text </p>
+        <a href="https://kuldeepsrit.github.io/text-to-speech/" class="project-link">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+   
+<section id="resume" class="resume">
+  <h2>My Resume</h2>
+  <p>You can view or download my resume below.</p>
+  <a href="https://drive.google.com/file/d/1L6z293SulSA8zoQHPsR6ohCu1_b4eUea/view?usp=drivesdk" download class="resume-link">Download Resume (PDF)</a>
+</section>
+
+<!-- Certificates Section -->
+<section id="certificates" class="certificates">
+  <h2>My Certificates</h2>
+  <ul>
+    <li>
+      Python Programming - <a href="https://drive.google.com/file/d/14tq0pPrwEcIlXKdOyJKm833OQjTh7oEa/view?usp=sharing" target="_blank">View Certificate</a>
+    </li>
+    <hr />
+    <li>
+      SQL-Intermediate - <a href="https://www.hackerrank.com/certificates/67945d8859aa" target="_blank">View Certificate</a>
+    </li>
+    <hr />
+    <li>
+      Software-engineering-intern <a href="https://www.hackerrank.com/certificates/47b6e534b210" target="_blank">View Certificate</a>
+    </li>
+  </ul>
+</section>
+
+
+
+  <!-- Footer Section -->
+  <footer id="contact">
+    <div class="footer-links">
+      <a href="https://github.com/kuldeepsrit" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/kuldeep-mishra-158ba723a" target="_blank">LinkedIn</a>
+      <a href="kuldeepmishra5527@gmail.com">Email</a>
+    </div>
+  <p>&copy; 2023 [Your Name]. All rights reserved.</p>
+  </footer>
+  
+  <script>
+    const toggleBtn = document.getElementById('menu-toggle');
+    const navMenu = document.getElementById('nav-menu');
+  
+    toggleBtn.addEventListener('click', () => {
+      navMenu.classList.toggle('show-nav');
+  
+      // Optional: toggle icon ☰ ↔ ✖
+      toggleBtn.innerHTML = navMenu.classList.contains('show-nav') ? '&times;' : '&#9776;';
+    });
+  </script>
+  
+  
+
+
+</body>
+</html>
